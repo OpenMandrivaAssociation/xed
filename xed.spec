@@ -2,8 +2,8 @@
 %bcond_without python
 
 Name:           xed
-Version:        2.2.3
-Release:        %mkrel 1
+Version:        2.4.0
+Release:        1
 Summary:        A small and lightweight text editor
 License:        GPLv2+
 Group:          Editors
