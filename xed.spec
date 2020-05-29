@@ -73,7 +73,7 @@ viewing VCS ChangeLogs, and adjusting indentation levels.
 
 %files -f %{name}.lang
 %license COPYING
-%doc AUTHORS NEWS README
+%doc AUTHORS NEWS
 %{_bindir}/%{name}
 %{_datadir}/%{name}/
 %{_libdir}/%{name}/
@@ -82,7 +82,6 @@ viewing VCS ChangeLogs, and adjusting indentation levels.
 %{_datadir}/dbus-1/services/org.x.editor.service
 %{_mandir}/man?/%{name}.*
 %{_datadir}/metainfo/xed.appdata.xml
-
 
 %files devel
 %{_includedir}/%{name}/
