@@ -73,7 +73,7 @@ viewing VCS ChangeLogs, and adjusting indentation levels.
 
 %files -f %{name}.lang
 %license COPYING
-%doc AUTHORS NEWS
+%doc AUTHORS
 %{_bindir}/%{name}
 %{_datadir}/%{name}/
 %{_libdir}/%{name}/
