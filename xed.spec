@@ -2,7 +2,7 @@
 %bcond_without python
 
 Name:           xed
-Version:        3.2.7
+Version:        3.2.8
 Release:        1
 Summary:        A small and lightweight text editor
 License:        GPLv2+
