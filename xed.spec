@@ -78,10 +78,11 @@ viewing VCS ChangeLogs, and adjusting indentation levels.
 %{_datadir}/%{name}/
 %{_libdir}/%{name}/
 %{_datadir}/glib-2.0/schemas/*.xml
-#{_datadir}/applications/%{name}.desktop
+%{_datadir}/applications/org.x.editor.desktop
 %{_datadir}/dbus-1/services/org.x.editor.service
 %{_mandir}/man?/%{name}.*
-#{_datadir}/metainfo/xed.appdata.xml
+%{_datadir}/gtksourceview-4/styles/xed.xml
+%{_datadir}/metainfo/org.x.editor.metainfo.xml
 
 %files devel
 %{_includedir}/%{name}/
